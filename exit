@@ -1,0 +1,25 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 544b44f..eb59429 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,6 +8,11 @@[m
+   box-sizing: border-box;[m
+ }[m
+ [m
+[32m+[m[32mp.border {[m
+[32m+[m[32m  border-style: solid;[m
+[32m+[m[32m  border-left-width: 15px;[m
+[32m+[m[32m}[m
+[32m+[m
+ .left {[m
+   background-color: #2196F3;[m
+   padding: 20px;[m
+[36m@@ -56,6 +61,8 @@[m
+   <p>Right Content</p>[m
+ </div>[m
+ [m
+[32m+[m[32m<p class="border"><b>Note:</b> The "border-left-width" property does not work if it is used alone. Use the "border-style" property to set the borders first.</p>[m
+[32m+[m
+ </body>[m
+ </html>[m
+ [m

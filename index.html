@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+p.border {
+  border-style: solid;
+  border-left-width: 15px;
+}
+
 .left {
   background-color: #2196F3;
   padding: 20px;
@@ -55,6 +60,8 @@
 <div class="right">
   <p>Right Content</p>
 </div>
+
+<p class="border"><b>Note:</b> The "border-left-width" property does not work if it is used alone. Use the "border-style" property to set the borders first.</p>
 
 </body>
 </html>
